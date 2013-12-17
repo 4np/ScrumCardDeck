@@ -1,88 +1,126 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Scrum Card Deck : Scrum Card Deck iOS App" />
+<head>
+    <meta charset='utf-8'/>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+    <meta name="description" content="Scrum Card Deck : Scrum Card Deck iOS App"/>
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
     <title>Scrum Card Deck</title>
-  </head>
+</head>
 
-  <body>
+<body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/4np/ScrumCardDeck">View on GitHub</a>
+<!-- HEADER -->
+<div id="header_wrap" class="outer">
+    <header class="inner">
+        <!--<a id="forkme_banner" href="https://github.com/4np/ScrumCardDeck">View on GitHub</a>-->
+        <span id="appicon_banner"></span>
 
-          <h1 id="project_title">Scrum Card Deck</h1>
-          <h2 id="project_tagline">Scrum Card Deck iOS App</h2>
+        <h1 id="project_title">Scrum Card Deck</h1>
 
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/4np/ScrumCardDeck/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/4np/ScrumCardDeck/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
+        <h2 id="project_tagline">The Scrum Card Deck iOS App</h2>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <!--<section id="downloads">-->
+        <!--<a class="zip_download_link" href="https://github.com/4np/ScrumCardDeck/zipball/master">Download this project as a .zip file</a>-->
+        <!--<a class="tar_download_link" href="https://github.com/4np/ScrumCardDeck/tarball/master">Download this project as a tar.gz file</a>-->
+        <!--</section>-->
+    </header>
+</div>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+<!-- MAIN CONTENT -->
+<div id="main_content_wrap" class="outer">
+    <section id="main_content" class="inner">
+        <h3><a name="about" class="anchor" href="#about"><span class="octicon octicon-link"></span></a>About Scrum Card Deck</h3>
+        <p>
+            Scrum Card Deck is a digital version of Scrum Poker / Planning Poker: a consensus-based technique for estimating and sizing user stories in agile software development. In particular together with the Scrum and Extreme Programming methodologies.
+        </p>
+        <p>
+            During sprint planning in Scrum, the team can use these poker cards as a unit of measure for estimating the overall size of a user story, feature, or even associated piece of work. This tool helps the team assign points, in a relaxed manner, to stories or tasks. Having points assigned to every story will, in turn, help the team estimate how long it will take to complete each task, what story can be triangulated, and what goes into the next iteration. This tool is a consensus-based technique for estimating and coming to agreement on the projected workload in a sprint backlog.
+        </p>
+        <p class="centered">
+            <img src="images/iPhone.png"/>
+        </p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+        <h3><a name="gestures" class="anchor" href="#gestures"><span class="octicon octicon-link"></span></a>Gestures</h3>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+        <p>
+            While in card view (pictured above), a number of gestures are supported:
+            <li class="swipe right">
+                <div class="title">swipe right <i>from the left edge of the screen</i></div>
+                <div class="details">
+                    Swiping from the left edge of the screen to the right will make you go back
+                    to the previous screen (the card list or card picker).
+                </div>
+            </li>
+            <li class="swipe left">
+                <div class="title">swipe left <i>on the card</i></div>
+                <div class="details">
+                    Swiping from right to left on the card itself will flip the card over. This is
+                    useful as in Scrum Poker you generally need to flip the card over all at once.
+                </div>
+            </li>
+            <li class="swipe up">
+                <div class="title">swipe up <i>on the card</i></div>
+                <div class="details">
+                    Swiping from the left edge of the screen to the right will make you go back
+                    to the previous screen (the card list or card picker).
+                </div>
+            </li>
+            <li class="swipe down">
+                <div class="title">swipe down <i>on the card</i></div>
+                <div class="details">
+                    Swiping from the left edge of the screen to the right will make you go back
+                    to the previous screen (the card list or card picker).
+                </div>
+            </li>
+            <li class="swipe tap">
+                <div class="title">single tap <i>on the card</i></div>
+                <div class="details">
+                    Swiping from the left edge of the screen to the right will make you go back
+                    to the previous screen (the card list or card picker).
+                </div>
+            </li>
+        </p>
 
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+        <p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+        </p>
 
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+        <h3><a name="support" class="anchor" href="#support"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+        <p>
+            In case you experience any issues with the app, have any feature requests or have any general feedback,
+            you can leave them <a href="https://github.com/4np/ScrumCardDeck/issues">here</a>.
+        </p>
+    </section>
+</div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Scrum Card Deck maintained by <a href="https://github.com/4np">4np</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+<!-- FOOTER  -->
+<div id="footer_wrap" class="outer">
+    <footer class="inner">
+        <p class="copyright">Scrum Card Deck by <a href="https://github.com/4np">Jeroen Wesbeek</a></p>
+    </footer>
+</div>
 
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-33512278-2', '4np.github.io');
-  ga('send', 'pageview');
+    ga('create', 'UA-33512278-2', '4np.github.io');
+    ga('send', 'pageview');
 
 </script>
 
-  </body>
+</body>
 </html>
