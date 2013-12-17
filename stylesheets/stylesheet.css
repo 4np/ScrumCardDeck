@@ -285,6 +285,21 @@ Full-Width Styles
     border-bottom-right-radius: 2px;
 }
 
+#appstore_banner {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    z-index: 10;
+    padding: 10px 50px 10px 10px;
+    color: #fff;
+    background: url('../images/AppStoreButton.png') #0090ff no-repeat 95% 50%;
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
 #appicon_banner {
     display: block;
     position: absolute;
@@ -294,6 +309,11 @@ Full-Width Styles
     z-index: 10;
     width: 152px;
     height: 152px;
+
+    -webkit-border-radius: 25px;
+    border: 1px solid #ccc;
+    margin-top:0px;
+    margin-left:0px;
 }
 
 #header_wrap {
@@ -424,6 +444,20 @@ Full-Width Styles
     color: #ffffff;
     font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
     font-size: 10pt;
+}
+
+#footer_wrap .copyright {
+    display: inline-block;
+    vertical-align: middle;
+    width: 500px;
+}
+
+#footer_wrap .button {
+    vertical-align: middle;
+    display: inline-block;
+    width: 118px;
+    height: 37px;
+    background: url(../images/AppStoreButton-small.png) no-repeat top left;
 }
 
 /*******************************************************************************
